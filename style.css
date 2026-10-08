@@ -1,0 +1,5 @@
+:root{--bg:#fff;--fg:#111;--mute:#666;--red:#e10600}
+@media (prefers-color-scheme:dark){:root{--bg:#000;--fg:#f2f2f2;--mute:#999}}
+body{background:var(--bg);color:var(--fg);font:16px/1.6 ui-monospace,Menlo,monospace;max-width:640px;margin:0 auto;padding:48px 16px}
+h1{font-size:22px;margin:0 0 4px}h1 span{color:var(--red)}
+p.meta{color:var(--mute);margin:0 0 32px}a{color:var(--red)}ul{padding-left:20px}
